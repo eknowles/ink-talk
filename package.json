@@ -1,17 +1,21 @@
 {
-  "name": "ink-talk",
+  "name": "termstar",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "start": "node ./dist/index.js",
-    "develop": "tsc --watch"
+    "watch": "tsc --watch"
   },
   "dependencies": {
+    "@somo/tslint-preset": "^0.0.4",
     "ink": "^2.4.0",
+    "ink-box": "^1.0.0",
+    "ink-spinner": "^3.0.1",
     "react": "^16.9.0",
     "typescript": "^3.6.3"
   },
   "devDependencies": {
-    "@types/node": "^12.7.8"
+    "@types/node": "^12.7.8",
+    "tslint": "^5.20.0"
   }
 }
